@@ -1,8 +1,6 @@
 local whitelist = {
-    "wrestonmain", --owner
+    "wrestonmain", -- owner
     "Ben_Muhammed17", -- admin
-    
-    
 }
 
 local function trim(s)
@@ -14,12 +12,12 @@ local function isPlayerWhitelisted(playerName)
     
     for _, name in ipairs(whitelist) do
         local trimmedWhitelistName = trim(name:lower())
-        trimmedWhitelistName) 
+        
         if trimmedWhitelistName == trimmedPlayerName then
-            l
             return true
         end
     end
+    
     print("Player is not whitelisted") 
     return false
 end
@@ -27,4 +25,3 @@ end
 return {
     isPlayerWhitelisted = isPlayerWhitelisted
 }
-
