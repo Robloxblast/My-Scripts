@@ -3,7 +3,8 @@ local whitelist = {
     "Ben_Muhammed17", -- admin
     "xzk_7402", --lifetime
     "Wreston_Jr",
-    "nephis001",
+    "nephis001", --lifetime
+    "dronareva", --lifetime
 }
 
 local function trim(s)
