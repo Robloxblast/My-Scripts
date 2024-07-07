@@ -5,6 +5,8 @@ local whitelist = {
     "Wreston_Jr",
     "nephis001", --lifetime
     "dronareva", --lifetime
+    "eitch9nine", --lifetime giveaway
+    "MyDogJaxIsCute", --lifetimw
 }
 
 local function trim(s)
